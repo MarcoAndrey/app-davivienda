@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App - Davivienda</title>
+
+  <!-- Favicon -->
+  <link href="https://marco-andrey-ui-ux.netlify.app/assets/img/logo.png" rel="icon">
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+
+  <!-- CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="#">
+            <div >
+              <a class="logo" href="">
+                <img src="images/logo.png" alt="">
+              </a>
+            </div>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">DAVIVIENDA</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="detail-box">
+              <h1>
+                abra su<br />
+                cuenta digital
+              </h1>
+              <div>
+                <a href="">
+                  CONOCE LA APP
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="images/slider-img-1.png" alt="" />
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end slider section -->
+  </div>
+
+  <!-- feature section -->
+  <section class="feature_section layout_padding2 layout_margin">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Todo lo que necesitas saber
+        </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-check-lg" viewBox="0 0 16 16">
+                  <path
+                    d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                </svg>
+              </div>
+              <h6>
+                NUESTRA APP
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                Con nuestra aplicación bancaria, tendrás acceso a una amplia variedad de herramientas y recursos que te
+                ayudarán a gestionar tus finanzas de manera más eficiente. Desde la comodidad de tu hogar o en cualquier
+                lugar donde te encuentres, podrás realizar transacciones financieras, pagar tus facturas, revisar tus
+                saldos y mucho más. Además, nuestra app cuenta con medidas de seguridad avanzadas para proteger tus
+                datos personales y financieros. Descárgala hoy mismo y descubre todo lo que necesitas para administrar
+                tu dinero de manera fácil y práctica. ¡No te arrepentirás!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-phone-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
+                </svg>
+              </div>
+              <h6>
+                MÓVIL APP
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                ¡Exacto! Una de las grandes ventajas de nuestra app bancaria es que puedes utilizarla en cualquier lugar
+                y a cualquier hora desde tu dispositivo móvil.
+                <br><br>
+                Con nuestra app, puedes revisar tus saldos, realizar transferencias, pagar facturas, y mucho más, sin
+                importar donde te encuentres. Ya sea que estés en casa, en el trabajo o de vacaciones, puedes acceder a
+                tu cuenta bancaria en cualquier momento y desde cualquier lugar.
+                <br><br>
+                Google Play Store o Apple Store
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
+                </svg>
+              </div>
+              <h6>
+                VIDEO APP
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                El video introductorio de nuestra app bancaria comenzaría con una breve introducción de los servicios
+                que ofrecemos como banco. Luego, mostraría una vista previa de la app y sus funciones principales, como
+                revisar los saldos de las cuentas, realizar transferencias, pagar facturas y recibir notificaciones en
+                tiempo real.
+                <br><br>
+                El video también destacaría la seguridad de nuestra app bancaria, mostrando cómo protegemos la
+                información de nuestros usuarios con medidas de seguridad avanzadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <a href="https://www.youtube.com/watch?v=kuZJzdo9hAk">
+        VER VIDEO
+      </a>
+    </div>
+  </section>
+
+  <!-- end feature section -->
+
+  <!-- download section -->
+
+  <section class="download_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          BENEFICIOS DE LA CUENTA DIGITAL
+        </h2>
+      </div>
+      <div class="layout_padding2-top">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/check.png" alt="" />
+                </div>
+                <h6>
+                  APERTURA EN LINEA
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Apertura en línea desde el App Davivienda Móvil con $0 pesos y disponibilidad inmediata para recibir
+                  depósitos, realizar transferencias, pagos, entre otros.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/support.png" alt="" />
+                </div>
+                <h6>
+                  SERVICIOS
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Acceder a toda la oferta de servicios digitales desde nuestros canales virtuales.
+                </p>
+              </div>
+            </div>
+            <div>
+              <a href="https://www.davivienda.com/" target="_blank" class="btn-1">
+                BENEFICIOS
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-img-box">
+              <img src="images/CuentaMovil.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/cash-canales.png" alt="" />
+                </div>
+                <h6>
+                  CANALES
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Administración desde nuestros canales virtuales sin necesidad de tener una tarjeta débito.Si usted lo
+                  requiere, solicítela en cualquiera de nuestras oficinas.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/money-flow-SEP.png" alt="" />
+                </div>
+                <h6>
+                  AHORRAR DINERO
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Separar el dinero de ahorrar del de gastar activando bolsillos
+                </p>
+              </div>
+            </div>
+            <div>
+              <a href="https://play.google.com/store/apps/details?id=com.todo1.davivienda.mobileapp&hl=es_CO&gl=US&pli=1" target="_blank" class="btn-2">
+                GOOGLE PLAY
+              </a>
+
+              <a href="https://apps.apple.com/co/app/davivienda-m%C3%B3vil/id909149607" target="_blank" class="btn-2">
+                APP STORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end download section -->
+
+  <!-- app center section -->
+  <section class="appcenter_section layout_padding">
+    <div class="container">
+      <div class="layout_padding2-top">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="detail-box b-1">
+              <p>
+                ¡Claro! Permíteme presentarte nuestra app bancaria y sus principales características:
+              </p>
+              <a href="">
+                CONOCE LA APP
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="detail-box b-2">
+              <p>
+                Nuestra app bancaria es una herramienta diseñada para que puedas administrar tus finanzas de manera
+                fácil y segura desde cualquier lugar y en cualquier momento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end app center section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <span>
+        <a href="">
+          <img src="images/facil.png" alt="">
+        </a>
+      </span>
+    </div>
+
+    </div>
+    <div class="container">
+      <div class="red_container">
+
+        <div class="red-box">
+
+          <a href="" class="app-dav">
+            <img src="images/app.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- end info section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; Design by Marco Andrey
+      <a href="https://marco-andrey-ui-ux.netlify.app/">Web developer</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+</body>
+
+</html>
